@@ -8,6 +8,7 @@
 
 - [quickstart-se](quickstart-se)
 - [quickstart-mp](quickstart-mp)
+- [static-content](static-content)
 
 ## License
 

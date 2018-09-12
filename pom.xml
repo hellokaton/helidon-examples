@@ -23,6 +23,7 @@
     <modules>
         <module>quickstart-se</module>
         <module>quickstart-mp</module>
+        <module>static-content</module>
     </modules>
 
     <dependencyManagement>
