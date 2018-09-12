@@ -24,6 +24,7 @@
         <module>quickstart-se</module>
         <module>quickstart-mp</module>
         <module>static-content</module>
+        <module>route-error</module>
     </modules>
 
     <dependencyManagement>
