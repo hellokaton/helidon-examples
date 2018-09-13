@@ -13,14 +13,14 @@ import java.util.Optional;
  * @author biezhi
  * @date 2018/9/12
  */
-public class Main {
+public class ErrorApplication {
 
     public static void main(String[] args) {
 
         Routing routing = Routing.builder()
                 .register(JsonSupport.get())
                 .get("/", (req, res) -> res.send("Hello World"))
-                .get("/exp", Main::exceptionHandle)
+                .get("/exp", ErrorApplication::exceptionHandle)
                 .error(MyException.class, (req, res, ex) -> myExceptionHandle(res, ex))
                 .error(Throwable.class, ((req, res, ex) ->
                         res.send(ex.getMessage())))

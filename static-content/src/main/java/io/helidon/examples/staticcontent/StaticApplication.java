@@ -23,7 +23,7 @@ import java.nio.file.Paths;
  * @author biezhi
  * @date 2018/9/12
  */
-public class Main {
+public class StaticApplication {
 
     public static void main(String[] args) throws Exception {
 

@@ -6,10 +6,12 @@
 
 ## Examples
 
-- [quickstart-se](quickstart-se)
-- [quickstart-mp](quickstart-mp)
-- [static-content](static-content)
-- [route-error](route-error)
+- [01. quickstart-se](quickstart-se)
+- [02. quickstart-mp](quickstart-mp)
+- [03. static-content](static-content)
+- [04. route-error](route-error)
+- [05. trace-example](trace-example)
+- [06. metrics-example](metrics-example)
 
 ## License
 

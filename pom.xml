@@ -25,6 +25,8 @@
         <module>quickstart-mp</module>
         <module>static-content</module>
         <module>route-error</module>
+        <module>trace-example</module>
+        <module>metrics-example</module>
     </modules>
 
     <dependencyManagement>
